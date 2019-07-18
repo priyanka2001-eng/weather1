@@ -1,0 +1,137 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 22,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5665198472,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I open Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 7
+                }
+              ],
+              "location": "Verification.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9333367840,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I go to ApplicationURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ApplicationURL",
+                  "offset": 8
+                }
+              ],
+              "location": "Verification.navigate(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 493219768,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Verification.before(Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Verification of fields on the page",
+        "description": "",
+        "id": "to-verify-all-important-information-is-present-on-the-page;verification-of-fields-on-the-page",
+        "after": [
+          {
+            "result": {
+              "duration": 2574379517,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Verification.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 104804214,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The field with locatorName should be present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "locatorName",
+                  "offset": 15
+                }
+              ],
+              "location": "Verification.fieldPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 152456813,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Total number of links present",
+            "match": {
+              "location": "Verification.linksverify()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Firstage"
+          }
+        ]
+      }
+    ],
+    "name": "To verify all important information is present on the page",
+    "description": "",
+    "id": "to-verify-all-important-information-is-present-on-the-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/openweather/map/Feature.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
